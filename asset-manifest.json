@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/med-app/static/css/main.a542828d.css",
-    "main.js": "/med-app/static/js/main.a2869580.js",
+    "main.js": "/med-app/static/js/main.fc19aa74.js",
     "static/media/PVI.jpg": "/med-app/static/media/PVI.0b244f697610b044e830.jpg",
     "index.html": "/med-app/index.html",
     "main.a542828d.css.map": "/med-app/static/css/main.a542828d.css.map",
-    "main.a2869580.js.map": "/med-app/static/js/main.a2869580.js.map"
+    "main.fc19aa74.js.map": "/med-app/static/js/main.fc19aa74.js.map"
   },
   "entrypoints": [
     "static/css/main.a542828d.css",
-    "static/js/main.a2869580.js"
+    "static/js/main.fc19aa74.js"
   ]
 }
