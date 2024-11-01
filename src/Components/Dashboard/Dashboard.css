@@ -1,0 +1,129 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container--inner {
+	background-color: #68A5B8;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+.inner--left {
+	width: 55%;
+	position: relative;
+	background-image: url('/public/images/PVI.jpg');
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+
+.inner--right {
+	width: 45%;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.inner--right_pacient {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 33px 50px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.custom-select {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.select-selected {
+	color: #1E1E1E;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 39px;
+}
+
+.select-selected span {
+	font-weight: 600;
+}
+
+.select-arrow {
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #68A5B8;
+	pointer-events: none;
+	font-size: 100px;
+	transition: transform 0.3s ease;
+}
+
+.select-arrow.open {
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.select-items {
+	position: absolute;
+	background-color: white;
+	border: 1px solid #68A5B8;
+	border-radius: 5px;
+	font-size: 24px;
+	z-index: 99;
+	width: 100%;
+	max-height: 500px;
+	/* Ограничиваем высоту списка */
+	overflow-y: auto;
+	/* Скроллинг, если элементов много */
+}
+
+.select-item>div:first-child {
+	font-weight: 600;
+}
+
+.select-item {
+	padding: 10px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.select-item:hover {
+	background-color: #f1f1f1;
+	/* Цвет фона при наведении */
+}
+
+.inner--right_chat {
+	background-color: #fff;
+	border-radius: 10px;
+	height: 100%;
+	padding: 10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+	overflow-y: auto;
+	position: relative;
+	margin-top: 50px;
+}
+
+.inner--right_chat button {
+	width: 157px;
+	height: 157px;
+	border-radius: 50%;
+	background-color: #D9D9D9;
+	border: 7px solid #68A5B8;
+	color: #1E1E1E;
+	font-size: 70px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
